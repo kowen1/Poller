@@ -19,6 +19,7 @@ namespace Poller
 
 		~Logger()
 		{
+            // Add a comment here
 			w.Close();
 		}
 
